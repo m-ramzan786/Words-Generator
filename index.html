@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Words Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <h1>Words Generator</h1>
+        <div class="form-container">
+          <div class="input-number">
+            <label for="number">Type Number Of Words: </label>
+            <input
+              type="number"
+              placeholder="Enter number here"
+              id="NumOfWords"
+            />
+          </div>
+          <div class="textarea-container">
+            <textarea
+              name="textarea"
+              id="textarea"
+              cols="30"
+              rows="8"
+              placeholder="Result"
+              readonly
+            ></textarea>
+          </div>
+          <div class="buttons-container">
+            <button type="button" id="generate-Btn">Generate Words</button>
+            <button type="button" id="copy-Btn">Copy</button>
+            <button type="button" id="reset-Btn">Reset</button>
+          </div>
+        </div>
+        <div class="detail-container">
+          <p>Words: <span id="total-words">0</span></p>
+          <p>Characters with spaces: <span id="char">0</span></p>
+          <p>Characters without spaces: <span id="char-no-space">0</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
