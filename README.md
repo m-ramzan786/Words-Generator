@@ -37,7 +37,7 @@ To use the Words Generator Web App:
 
 2. Enter the desired number of words in the input field.
 
-3. Click the "Generate" button to generate random words.
+3. Click the "Generate Words" button to generate random words.
 
 4. View the number of generated words and character counts.
 
